@@ -13,7 +13,7 @@
 * 💻 I specialize in full-stack projects, bridging robust backend architectures with clean, responsive mobile interfaces.
 * 🔐 Deeply interested in vulnerability scanning, server administration, and designing secure network topologies.
 * 🌱 Currently building **Mifania**, a comprehensive web and mobile ecosystem for a sustainable fashion brand.
-* ⚡ Fun fact: When I'm not debugging or configuring containers, I'm usually catching up on Chainsaw Man or relaxing with a Studio Ghibli film.
+* ⚡ Fun fact: When I'm not debugging or configuring containers, I'm usually catching up on The Boys or relaxing with a Studio Ghibli film.
 
 ---
 
