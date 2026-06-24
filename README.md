@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Animated Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EEAF7,100:4C956C&height=200&section=header&text=Pacifico%20Morales%20Oyanib%20III&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20UI/UX%20Specialist&descAlignY=55&descSize=16" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EEAF7,100:4C956C&height=200&section=header&text=Bien Paolo%20Eltanal%20Mifania%20III&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20UI/UX%20Specialist&descAlignY=55&descSize=16" width="100%"/>
   
   <!-- Animated Typing Effect -->
   <a href="https://git.io/typing-svg">
@@ -78,19 +78,19 @@
 ---
 
 <!-- <div align="center">
-  <a href="https://pacificooyanib-project-portfolio.netlify.app/" target="_blank">
+  <a href="https://mifaniapaolo-project-portfolio.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="mailto:pacificooyanib@gmail.com" target="_blank">
+  <a href="mailto:mifaniapaolo0012@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://readme-md-overview.netlify.app" target="_blank">
     <img src="https://img.shields.io/badge/Blog-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Blog" />
   </a>
-  <a href="https://linkedin.com/in/pacificooyanib" target="_blank">
+  <a href="https://linkedin.com/in/mifaniapaolo" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://twitter.com/pacificooyanib" target="_blank">
+  <a href="https://facebook/mifaniapaolo123" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
 </div> -->
