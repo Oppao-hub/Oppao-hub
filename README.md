@@ -1,150 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Evaluation UI</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    body { 
-      font-family: 'Inter', sans-serif; 
-      background-color: #f8fafc; /* Soft slate background to make white cards pop */
-    }
-  </style>
-</head>
-<body class="text-slate-800 p-6 md:p-12">
-
-  <div class="max-w-7xl mx-auto space-y-8">
-    
-    <div>
-      <h1 class="text-3xl font-bold text-slate-900 tracking-tight">Evaluation</h1>
-      <p class="text-slate-500 mt-2 text-sm">Review academic performance and grade history.</p>
-    </div>
-
-    <div class="flex items-center">
-      <div class="relative inline-block text-left">
-        <select class="appearance-none bg-white border border-slate-300 hover:border-slate-400 text-slate-700 py-2.5 pl-4 pr-10 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 font-medium text-sm transition-colors cursor-pointer">
-          <option>SY 2023–2024</option>
-          <option>SY 2024–2025</option>
-          <option>SY 2025–2026</option>
-        </select>
-        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-slate-500">
-          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-        </div>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
-      
-      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-        <div class="px-6 py-5 border-b border-slate-100 bg-slate-50/50">
-          <h2 class="text-lg font-semibold text-slate-800">First Semester</h2>
-        </div>
-        
-        <div class="overflow-x-auto">
-          <table class="w-full text-left border-collapse">
-            <thead>
-              <tr class="text-xs text-slate-500 uppercase tracking-wider border-b border-slate-100 bg-white">
-                <th class="px-6 py-4 font-semibold w-1/4">Code</th>
-                <th class="px-6 py-4 font-semibold w-1/2">Subject</th>
-                <th class="px-6 py-4 font-semibold text-center w-1/12">Units</th>
-                <th class="px-6 py-4 font-semibold text-right w-1/6">Grade</th>
-              </tr>
-            </thead>
-            <tbody class="text-sm divide-y divide-slate-100">
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">FIL 1</td>
-                <td class="px-6 py-4 text-slate-600">Akademiko sa Wikang Filipino</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">1.00</td>
-              </tr>
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">GE 4</td>
-                <td class="px-6 py-4 text-slate-600">Mathematics in the Modern World</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">1.00</td>
-              </tr>
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">ITS 100</td>
-                <td class="px-6 py-4 text-slate-600">Introduction to Computing</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">1.00</td>
-              </tr>
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">ITS 101</td>
-                <td class="px-6 py-4 text-slate-600">Computer Programming 1</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">1.00</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        
-        <div class="px-6 py-4 bg-slate-50/50 border-t border-slate-100 flex justify-between items-center mt-auto">
-          <span class="text-sm text-slate-500">Total Units: <strong class="text-slate-900 font-semibold">23</strong></span>
-          <div class="flex items-center gap-2">
-            <span class="text-sm text-slate-500 font-medium">GPA:</span>
-            <span class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-semibold bg-blue-50 text-blue-700 ring-1 ring-inset ring-blue-700/10">1.13</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-        <div class="px-6 py-5 border-b border-slate-100 bg-slate-50/50">
-          <h2 class="text-lg font-semibold text-slate-800">Second Semester</h2>
-        </div>
-        
-        <div class="overflow-x-auto">
-          <table class="w-full text-left border-collapse">
-            <thead>
-              <tr class="text-xs text-slate-500 uppercase tracking-wider border-b border-slate-100 bg-white">
-                <th class="px-6 py-4 font-semibold w-1/4">Code</th>
-                <th class="px-6 py-4 font-semibold w-1/2">Subject</th>
-                <th class="px-6 py-4 font-semibold text-center w-1/12">Units</th>
-                <th class="px-6 py-4 font-semibold text-right w-1/6">Grade</th>
-              </tr>
-            </thead>
-            <tbody class="text-sm divide-y divide-slate-100">
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">GE 1</td>
-                <td class="px-6 py-4 text-slate-600">Understanding the Self</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">1.00</td>
-              </tr>
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">GE 2</td>
-                <td class="px-6 py-4 text-slate-600">Readings in Philippine History</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">1.50</td>
-              </tr>
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">ITS 103</td>
-                <td class="px-6 py-4 text-slate-600">Discrete Mathematics</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">2.20</td>
-              </tr>
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="px-6 py-4 font-medium text-slate-900">ITS 104</td>
-                <td class="px-6 py-4 text-slate-600">Computer Programming II</td>
-                <td class="px-6 py-4 text-center text-slate-500">3</td>
-                <td class="px-6 py-4 text-right font-medium text-slate-900">1.00</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        
-        <div class="px-6 py-4 bg-slate-50/50 border-t border-slate-100 flex justify-between items-center mt-auto">
-          <span class="text-sm text-slate-500">Total Units: <strong class="text-slate-900 font-semibold">29</strong></span>
-          <div class="flex items-center gap-2">
-            <span class="text-sm text-slate-500 font-medium">GPA:</span>
-            <span class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-semibold bg-blue-50 text-blue-700 ring-1 ring-inset ring-blue-700/10">1.31</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
+<div align="center">
+  
+  <!-- Animated Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EEAF7,100:4C956C&height=200&section=header&text=Pacifico%20Morales%20Oyanib%20III&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20UI/UX%20Specialist&descAlignY=55&descSize=16" width="100%"/>
+  
+  <!-- Animated Typing Effect -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0EEAF7&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+GitHub+Profile!;"Junior+Full-Stack+Developer;MERN+Stack+Enthusiast;Building+Scalable+Web+Solutions;Based+in+Philippines" alt="Typing SVG" />
+  </a>
+  
+  <!-- Profile Views & Social Badges -->
+  <div align="center" style="margin: 20px 0;">
+    <img src="https://komarev.com/ghpvc/?username=oyanibtech-iii&label=Profile%20Views&color=0EEAF7&style=for-the-badge" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/oyanibtech-iii?label=Followers&style=for-the-badge&color=0EEAF7&labelColor=1f2937" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/stars/oyanibtech-iii?label=Stars&style=for-the-badge&color=0EEAF7&labelColor=1f2937" alt="GitHub Stars" />
   </div>
+  
+</div>
 
-</body>
-</html>
+---
+
+<div align="center">
+
+### Frontend Development
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</p>
+
+### Backend Development
+<p>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+</p>
+
+### Database & Cloud
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" alt="Firebase" />
+</p>
+
+### Mobile Development
+<p>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+</p>
+
+### DevOps & Tools
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+### Design & Creative
+<p>
+  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" alt="Photoshop" />
+  <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white" alt="Illustrator" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+  <img src="https://img.shields.io/badge/Photopea-25D366?style=for-the-badge&logo=photopea&logoColor=white" alt="Photopea" />
+</p>
+
+</div>
+
+---
+
+<!-- <div align="center">
+  <a href="https://pacificooyanib-project-portfolio.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="mailto:pacificooyanib@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://readme-md-overview.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/Blog-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Blog" />
+  </a>
+  <a href="https://linkedin.com/in/pacificooyanib" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/pacificooyanib" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+</div> -->
+
+---
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Oyanibtech-iii&theme=radical&hide_border=true&background=0d1117&stroke=0EEAF7&ring=0EEAF7&fire=0EEAF7&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=0EEAF7&sideLabels=0EEAF7&dates=ffffff" alt="GitHub Streak" />
+</div>
+
+---
+
+<!-- <div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=oyanibtech-iii&theme=react-dark&bg_color=0d1117&hide_border=true&line=0EEAF7&point=0EEAF7&color=ffffff" alt="Contribution Graph" />
+</div> -->
+
+---
+
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+</picture>
+
+<!-- <div align="center">
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EEAF7,100:4C956C&height=200&section=header&text=Thank%20you%20for%20visiting%20my%20profile&fontSize=16&fontColor=ffffff&animation=fadeIn&fontAlignY=38&" width="100%"/>
+  
+</div> -->
+
+capsule-render.vercel.app
