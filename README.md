@@ -10,9 +10,9 @@
   
   <!-- Profile Views & Social Badges -->
   <div align="center" style="margin: 20px 0;">
-    <img src="https://komarev.com/ghpvc/?username=oyanibtech-iii&label=Profile%20Views&color=0EEAF7&style=for-the-badge" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/oyanibtech-iii?label=Followers&style=for-the-badge&color=0EEAF7&labelColor=1f2937" alt="GitHub Followers" />
-    <img src="https://img.shields.io/github/stars/oyanibtech-iii?label=Stars&style=for-the-badge&color=0EEAF7&labelColor=1f2937" alt="GitHub Stars" />
+    <img src="https://komarev.com/ghpvc/?username=oppao-hub&label=Profile%20Views&color=0EEAF7&style=for-the-badge" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/oppao-hub?label=Followers&style=for-the-badge&color=0EEAF7&labelColor=1f2937" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/stars/oppao-hub?label=Stars&style=for-the-badge&color=0EEAF7&labelColor=1f2937" alt="GitHub Stars" />
   </div>
   
 </div>
@@ -98,13 +98,13 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Oyanibtech-iii&theme=radical&hide_border=true&background=0d1117&stroke=0EEAF7&ring=0EEAF7&fire=0EEAF7&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=0EEAF7&sideLabels=0EEAF7&dates=ffffff" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Oppao-hub&theme=radical&hide_border=true&background=0d1117&stroke=0EEAF7&ring=0EEAF7&fire=0EEAF7&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=0EEAF7&sideLabels=0EEAF7&dates=ffffff" alt="GitHub Streak" />
 </div>
 
 ---
 
 <!-- <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=oyanibtech-iii&theme=react-dark&bg_color=0d1117&hide_border=true&line=0EEAF7&point=0EEAF7&color=ffffff" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=oppao-hub&theme=react-dark&bg_color=0d1117&hide_border=true&line=0EEAF7&point=0EEAF7&color=ffffff" alt="Contribution Graph" />
 </div> -->
 
 ---
